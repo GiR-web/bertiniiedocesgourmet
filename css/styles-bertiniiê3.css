@@ -1,0 +1,577 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+body {
+	background-color: black;
+}
+
+
+
+
+
+
+.navigation {
+	background-color: black;
+	color: white;
+	height:  50px;
+	animation-name: navegacao;
+	animation-duration: 2s;
+
+}
+
+
+.navigation ul {
+	margin-top: 0px;
+	list-style: none;
+	padding-left: 0px;
+	text-align: right;
+	height: 50px;
+}
+
+.navigation li{
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+
+.navigation a {
+	text-decoration: none;
+	color: white;
+}
+
+.navigation a:hover {
+	color: #eb2dc8;
+}
+
+
+.navigation li.threeline-icon {
+	display: none;
+	color: white;
+}
+
+
+.navigation li.threeline-icon:hover {
+	cursor: pointer;
+	color: #eb2dc8;
+}
+	
+
+
+
+
+
+.capa {
+	margin-left: 60px;
+	color: white;
+}
+
+.capa spam { 
+	color: #D6BBC0;
+	display: block;
+}
+
+.capa div{
+	height: 650px;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+.pic-home {
+	float: right;
+	margin-right: 170px;
+	animation-name: profile-capa;
+	animation-duration: 2s;
+	vertical-align: middle;
+
+}
+
+.pic-home img {
+	width: 320px;
+	border-radius: 350px;
+	margin-top: 100px;
+}
+
+
+
+
+
+
+.tittle-home {
+	margin-top: 180px;
+	margin-left: 100px;
+	line-height: 15px;
+}
+
+.tittle-home h3 {
+	text-align: center;
+	font-family: 'Sawarabi Mincho', sans-serif;
+	color: white;
+}
+
+
+.tittle-home h1,h2 {
+	font-size: 80px;
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Lobster Two', cursive;
+	color: white;
+}
+
+
+
+
+
+.contato h3 {
+	color: #eb2dc8;
+}
+
+.contato {
+	font-family: 'Sawarabi Mincho', sans-serif;
+	color: white;
+	margin-left: 100px;
+}
+
+.contato a {
+	color: grey;
+}
+
+
+
+
+
+.caminho-miniatura-backlink {
+	margin-left: 100px;
+}
+
+
+
+.caminho {
+	font-family: 'Sawarabi Mincho', sans-serif;
+	color: grey;
+	list-style: none;
+	padding: 0px;
+}
+
+.caminho li {
+	display: inline-block;
+
+}
+
+.caminho a {
+	color: grey;
+}
+
+
+
+
+
+.social-img {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+
+
+
+.back-link {
+	color: grey;
+}
+
+
+
+
+
+
+.teste a{
+	color:#111;
+}
+
+
+.photo {
+  position: absolute;
+  top: 50%;
+  float: left;
+  margin-left: 100px;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+.photo img{
+  width: 200px;
+  height: 280px;
+  object-fit: cover;
+  box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+  display: block;
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin-top: -20px;
+}
+
+.photo:hover img{
+  box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+
+.photo .glow-wrap{
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin-top: -10px;
+}
+
+.photo .glow{
+  display: block;
+  position:absolute;
+  width: 40%;
+  height: 200%;
+  background: rgba(255,255,255,.2);
+  top: 0;
+  filter: blur(5px);
+  transform: rotate(45deg) translate(-450%, 0);
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.photo:hover .glow{
+  transform: rotate(45deg) translate(450%, 0);
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.photo:hover img,
+.photo:hover .glow-wrap{
+  margin-top: 0;
+}
+
+.teste h1{
+  position: absolute;
+  z-index: 1;
+  transform: translate(-25%, -65%);
+  font-family: 'Sawarabi Mincho', sans-serif;
+  margin: 0;
+  line-height: 1.2;
+  margin-top: 23px;
+  color: orange;
+}
+
+
+
+.img-especial {
+	margin-left: 300px;
+
+}
+
+.img-especial h1 {
+	color: orange;
+	margin-top: 42px;
+}
+
+
+
+
+.doces {
+	display: inline-block;
+}
+
+
+.doces img {
+	width: 350px; 
+	height: 260px;
+	max-width: 80%;
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.doces h1 {
+	font-family: 'Lobster Two', cursive;
+	color: white;
+	margin-left: 500px;
+}
+
+
+.img-especial2 img {
+	width: 350px;
+	height: 500px;
+	max-width: 80%;
+	display: block;
+}
+
+
+p { 
+	padding: 0;
+	text-align: left;
+	color: white;
+	font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+
+figure {
+	float: left;
+	width: 350px;
+	height: 370px;
+	display: inline-block;
+	margin-left: -5px;
+}
+
+figure img {
+	margin-left: 40px;
+
+}
+
+
+
+
+figcaption {
+	color: white;
+	font-family: 'Sawarabi Mincho', sans-serif;
+	padding: none;
+	text-align: center;
+}
+
+
+
+
+.foto-trabalhos {
+	width: 500px;
+	height: 400px;
+}
+
+
+.doces a{
+	background-color: blue;
+}
+
+
+.content p {
+	margin-top: 30px;
+	font-family: 'Sawarabi Mincho', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+	width: 900px;
+}
+
+.titulo-a-bertiniie h1 {
+	margin-top: 20px;
+	font-family: 'Sawarabi Mincho', sans-serif;
+	color: white;
+	font-size: 18px
+}
+
+
+
+
+@keyframes profile-capa {
+	0% {opacity: 0; transform: translate(0px,20px)}
+	100% {opacity: 1; transform: translate(0px,0px)}
+}
+
+@keyframes titulo-capa {
+	0% {opacity: 0; transform: translate(0px,-20px)}
+	100% {opacity: 1; transform: translate(0px,0px)}
+}
+
+
+@keyframes conteudo {
+	0% {opacity: 0; transform: translate(-20px,0px)}
+	100% {opacity: 1; transform: translate(0px,0px)}
+}
+
+
+@keyframes navegacao {
+	0% {opacity: 0;}
+	50% {opacity: 0;} 
+	100% {opacity: 1;}
+}
+
+
+
+@media (max-width: 1000px) {
+
+.navigation li {
+	display: none;
+}
+
+.navigation li.threeline-icon {
+	display: inline-block;
+}
+
+.capa div {
+	display: block;
+	height: auto;
+}
+
+
+.pic-home {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.pic-home img {
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 80px;
+	margin-top: -180px;
+	margin-bottom: 40px;
+	max-width: 80%;	 
+
+}
+
+.tittle-home {
+	margin-left: 0;
+	text-align: center;
+	width: 100%;	
+}
+
+.tittle-home h1 {
+	font-size: 36px;
+	margin-right: 0px;
+	margin-left: -50px;
+}
+
+.tittle-home h2 {
+	line-height: 20px; 
+	font-size: 36px;
+	margin-top: 20px;
+	margin-left: -50px;
+	margin-right: 0px;
+}
+
+.tittle-home h3 {
+	line-height: 20px;
+	margin-left: -30px;
+	margin-right: 25px;
+	margin-top: 40px;
+}
+
+
+.main {
+	padding: 10px 5% 40px 5%;
+}
+
+
+.main p {
+	text-align: left;
+	line-height: 30px;
+}
+
+.caminho li {
+	font-size: 16px;	
+}
+
+.miniatura {
+	max-width: 100%;
+	background-size: auto 100%
+}
+
+.blackbox {
+	opacity: 0.8;
+}
+
+.menujs {
+	height: auto;
+}
+
+.menujs ul {
+	height: auto;
+	text-align: center;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+.menujs li {
+	display: block;
+	border-bottom: solid grey 1px;
+	width: 100%;
+	padding: 0;
+}
+
+.teste img {
+	margin-bottom: 130px;
+	width: 150px;
+	height: 230px;
+
+}
+
+.img-especial {
+	width: 150px;
+	margin-left: 0px;
+	display: block;
+	float: left;
+	margin-top: 470px;
+	position: absolute;
+	margin-bottom: 10px;
+}
+
+.img-especial1 {
+	width: 150px;
+	margin-left: 0px;
+	display: block;
+	margin-top: 200px;
+	float: left;
+	position: absolute;
+	margin-bottom: 10px;
+}
+
+
+
+
+.photo .glow{
+  width: 0px;
+  height: 0px;
+}
+
+.teste a {
+	margin-top: -70px;
+	height: 200px;
+	line-height: 10px;
+}
+
+
+.foto-trabalhos {
+	max-width: 80%;
+	margin-left: -10px;
+
+}
+
+p{
+	max-width: 80%;
+	margin-left: -10px;
+	white-space: break-word;
+}
+
+.doces {
+	max-width: 99%;
+	margin-top: -50px;
+}
+
+.doces h1 {
+	max-width: 99%;
+	margin-left: 40px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+
+}
+
+.doces figcaption {
+	margin-right: 100px;
+}
+
+figure {
+	margin-top: -10px;
+}
+
+}
